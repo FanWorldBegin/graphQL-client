@@ -1,7 +1,7 @@
 # graphQL-client
 前端使用react
 
-##创建连接
+## 创建连接
 ```
 import React, {Component} from 'react';
 import './App.css';
@@ -58,7 +58,7 @@ const getAuthorsQuery = gql`
 export { getBooksQuery, getAuthorsQuery }
 
 ```
-
+## 使用高阶组件
 ```
 import React, { Component } from 'react';
 import { graphql } from '@apollo/react-hoc';
