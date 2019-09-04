@@ -18,7 +18,7 @@ class BookList extends Component {
     } else {
       return data.books.map(book => {
         return (
-          <li>{book.name}</li>
+          <li key={book.id}>{book.name}</li>
         )
       })
     }
